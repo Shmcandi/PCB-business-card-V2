@@ -111,25 +111,6 @@ uint16_t XY(uint8_t x, uint8_t y) {
 
 ---
 
-## 💻 Firmware
-
-Complete production-grade firmware is available in the [`firmware/`](firmware/) directory, pre-configured for PlatformIO and the Arduino framework:
-
-- **Source Code:** [`firmware/src/main.cpp`](firmware/src/main.cpp)
-- **Bitmap Font (5x7):** [`firmware/include/font5x7.h`](firmware/include/font5x7.h)
-- **Project Configuration:** [`firmware/platformio.ini`](firmware/platformio.ini)
-
-### Supported Modes:
-1. **Flowing Rainbow:** Smooth 2D diagonal rainbow gradients across all 96 LEDs.
-2. **NFC Radar Wave:** Concentric radio wave pulsing animations representing NFC activity.
-3. **Plasma Waves:** Dynamic sinusoidal color interference patterns.
-4. **Starfield Sparkle:** Randomized twinkle/sparkle effects with soft exponential fade.
-5. **Scrolling Text:** Smooth horizontal marquee text using the built-in 5x7 ASCII bitmap font.
-6. **Phone Tap Celebration:** Automatic interrupt trigger when a smartphone taps the card (`GPIO18` Field Detect).
-7. **Hardware Deep Sleep:** Long-pressing the `USER` button powers down the $V_{LED}$ power rail completely via the DMG2305UX P-MOSFET for zero standby battery draw, and registers wake-up on button press or phone tap.
-
----
-
 ## 📦 Hardware & Manufacturing Files
 
 The board is 100% routed and verified with KiCad 10 DRC (0 unconnected items, 0 clearance errors), ready for turnkey assembly at JLCPCB / PCBWay:
