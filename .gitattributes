@@ -1,0 +1,21 @@
+# GitHub Linguist language overrides
+# Ensure hardware data and exports do not pollute language stats
+*.kicad_pcb linguist-detectable=false
+*.kicad_pro linguist-detectable=false
+*.kicad_mod linguist-detectable=false
+*.wrl linguist-detectable=false
+*.csv linguist-detectable=false
+*.gbl linguist-detectable=false
+*.gtl linguist-detectable=false
+*.gbs linguist-detectable=false
+*.gts linguist-detectable=false
+*.gbo linguist-detectable=false
+*.gto linguist-detectable=false
+*.gm1 linguist-detectable=false
+*.drl linguist-detectable=false
+*.gba linguist-detectable=false
+*.gta linguist-detectable=false
+*.gbr linguist-detectable=false
+*.gbrjob linguist-detectable=false
+*.py linguist-detectable=false
+*.py linguist-vendored

@@ -1,0 +1,18 @@
+# KiCad backups and autosave
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+_autosave-*
+*.tmp
+*.ses
+*.dsn
+*.rpt
+__pycache__/
+*.py[cod]
+*.py
+.DS_Store
+Thumbs.db
+.pio/
+.vscode/
